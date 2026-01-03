@@ -1,0 +1,30 @@
+[
+    {
+    "id": "rhino",
+    "title": "NOISE'O'ROGUE — RHINO RAP",
+    "artist": "NOISE'O'ROGUE",
+    "file": "/tracks/rhino.mp3",
+    "cover": "/covers/rhino.jpeg",
+    "tags": ["rap", "fast", "aggressive"],
+    "bpm": 180
+  },
+  {
+    "id": "azimut",
+    "title": "NOISE'O'ROGUE — AZIMUT",
+    "artist": "NOISE'O'ROGUE",
+    "file": "/tracks/azimut.mp3",
+    "cover": "/covers/azimut.jpeg",
+    "tags": ["rave", "absurd", "dance"],
+    "bpm": 150
+  },
+  {
+    "id": "ebobo",
+    "title": "NOISE'O'ROGUE — EBOBO",
+    "artist": "NOISE'O'ROGUE",
+    "file": "/tracks/ebobo.mp3",
+    "cover": "/covers/ebobo.jpeg",
+    "tags": ["bit-rave", "meme", "chaos"],
+    "bpm": 160
+  }
+  
+]
