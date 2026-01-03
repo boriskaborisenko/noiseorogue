@@ -148,10 +148,22 @@ body{
   background: rgba(255,255,255,.03);
 }
 
-.card--active{
+/* .card--active{
   border-color: rgba(255,255,255,.45);
   background: rgba(255,255,255,.06);
+} */
+ 
+.card--active{
+  border-color: rgba(255,255,255,.15);
+  background: rgba(255,255,255,.06);
+  box-shadow:
+    0 0 12px rgba(255,78,205,.35),
+    0 0 24px rgba(107,123,255,.25),
+    0 0 48px rgba(78,255,161,.2);
 }
+
+
+/*.  */
 
 .card__cover{
   width:100%;
@@ -160,7 +172,9 @@ body{
   display:block;
 }
 
-.card__body{ padding: 12px 12px 14px; }
+.card__body{ padding: 12px 12px 14px;
+background:#000;
+}
 
 .card__title{ font-weight: 900; line-height:1.15; }
 
@@ -403,14 +417,14 @@ body{
 
   .vol__range{width: 160px;}
   .controls{justify-content:flex-start;}
-  .btn{padding: 12px 14px; border-radius: 16px;}
+  .btn{padding: 10px 12px; border-radius: 16px;}
   .coverWrap{width:64px;height:64px;border-radius:16px;}
   .time{width:48px;}
 
-  .material-icons-round{font-size: 24px;}
-  .btn--primary .material-icons-round{font-size: 32px;}
+  .material-icons-round{font-size: 20px;}
+  .btn--primary .material-icons-round{font-size: 30px;}
 
-  .vol, #dlBtn, .hero{
+  .vol, .hero{
     display:none;
   }
   
