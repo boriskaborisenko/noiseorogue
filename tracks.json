@@ -1,7 +1,7 @@
 [
     {
     "id": "rhino",
-    "title": "NOISE'O'ROGUE — RHINO RAP",
+    "title": "RHINO RAP",
     "artist": "NOISE'O'ROGUE",
     "file": "/tracks/rhino.mp3",
     "cover": "/covers/rhino.jpeg",
@@ -10,7 +10,7 @@
   },
   {
     "id": "azimut",
-    "title": "NOISE'O'ROGUE — AZIMUT",
+    "title": "AZIMUT",
     "artist": "NOISE'O'ROGUE",
     "file": "/tracks/azimut.mp3",
     "cover": "/covers/azimut.jpeg",
@@ -19,7 +19,7 @@
   },
   {
     "id": "ebobo",
-    "title": "NOISE'O'ROGUE — EBOBO",
+    "title": "EBOBO",
     "artist": "NOISE'O'ROGUE",
     "file": "/tracks/ebobo.mp3",
     "cover": "/covers/ebobo.jpeg",
