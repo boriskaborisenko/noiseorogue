@@ -410,7 +410,7 @@ body{
   .material-icons-round{font-size: 24px;}
   .btn--primary .material-icons-round{font-size: 32px;}
 
-  .vol, #dlBtn{
+  .vol, #dlBtn, .hero{
     display:none;
   }
   
