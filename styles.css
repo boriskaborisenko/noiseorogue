@@ -416,3 +416,62 @@ body{
   
 }
 
+/* ===== Range sliders (seek + volume) - make track visible on mobile ===== */
+.seek, .vol__range{
+  -webkit-appearance: none;
+  appearance: none;
+  height: 22px;               /* gives room for thumb */
+  background: transparent;    /* we paint track ourselves */
+  cursor: pointer;
+}
+
+/* WebKit track */
+.seek::-webkit-slider-runnable-track,
+.vol__range::-webkit-slider-runnable-track{
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.20);
+  border: 1px solid rgba(255,255,255,.10);
+}
+
+/* WebKit thumb */
+.seek::-webkit-slider-thumb,
+.vol__range::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.95);
+  border: 1px solid rgba(0,0,0,.35);
+  margin-top: -6px; /* centers thumb on 6px track */
+  box-shadow: 0 0 0 4px rgba(255,255,255,.08);
+}
+
+/* Firefox track */
+.seek::-moz-range-track,
+.vol__range::-moz-range-track{
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.20);
+  border: 1px solid rgba(255,255,255,.10);
+}
+
+/* Firefox filled part (optional) */
+.seek::-moz-range-progress,
+.vol__range::-moz-range-progress{
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.50);
+}
+
+/* Firefox thumb */
+.seek::-moz-range-thumb,
+.vol__range::-moz-range-thumb{
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.95);
+  border: 1px solid rgba(0,0,0,.35);
+  box-shadow: 0 0 0 4px rgba(255,255,255,.08);
+}
