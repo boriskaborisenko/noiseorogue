@@ -1,5 +1,13 @@
 [
     {
+    "id": "panamka",
+    "title": "PANAMA",
+    "artist": "NOISE'O'ROGUE",
+    "file": "/tracks/panamka.mp3",
+    "cover": "/covers/panamka.jpeg",
+    "tags": ["dance", "fast", "rap"],
+    "bpm": 180
+  }, {
     "id": "rhino",
     "title": "RHINO RAP",
     "artist": "NOISE'O'ROGUE",
